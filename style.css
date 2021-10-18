@@ -17,11 +17,11 @@ main{
     /*padding: 5px 15px;*/
 }
 
-div#padding{
+.padding{
     padding: 5px 15px;
 }
 
-aside{
+.bottom--content{
     background-color: rgb(98, 98, 243);
     width: 800px;
     margin: auto;
@@ -30,7 +30,7 @@ aside{
     padding-bottom: 15px;
 }
 
-aside>h3{
+.bottom--content>h3{
     background-color: rgb(67, 67, 168);
     margin-top: 0px;
     color: white;
@@ -38,19 +38,15 @@ aside>h3{
     border-radius: 5px 5px 0px 0px;
 }
 
-h3#summary{
+.summary{
     display: inline;
 }
 
-img#foto--perfil{
+.foto--perfil{
     height: 150px;
     width: 150px;
     border-radius: 50%;
     box-shadow: 3px 7px 12px rgba(0, 0, 0, 0.404);
-}
-
-div#foto{
-    margin: auto;
 }
 
 ul, ol{
@@ -66,4 +62,9 @@ footer{
     padding: 6px;
     border-radius: 4px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.13);
+}
+
+hr {
+    margin: 0;
+    opacity: 0;
 }
